@@ -2,3 +2,7 @@
     position: absolute;
     right: 100px;
 }
+
+body {
+    font-family: Avenir, sans-serif;
+}

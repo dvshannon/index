@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <hr />
       <p className="text-center">
-        Deyon Shannon
+        &copy; Deyon Shannon
       </p>
     </footer>
   );

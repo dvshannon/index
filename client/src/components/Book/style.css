@@ -1,0 +1,39 @@
+body {
+    font-family: Avenir, sans-serif;
+}
+.card-body {
+    background-color: teal;
+    color: white;
+}
+
+.container {
+    background: linear-gradient(to left, teal, #9198e5);
+}
+.mt-4 {
+    box-shadow: 0 4px 8px #000;
+}
+
+footer p {
+    color: #FDF;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn {
+    background: linear-gradient(to right, teal, #9198e5);
+    box-shadow: 0 4px 8px #000;
+    border: 2px solid #fdf;
+    color: #fdf;
+    letter-spacing: 1.5px;
+}
+
+.btn:hover {
+    background: #fdf;
+    color: #000;
+    border: 2px solid #fdf;
+    transition: 300ms;
+}
+
+footer {
+    padding: 10px;  
+}
