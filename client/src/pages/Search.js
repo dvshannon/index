@@ -68,7 +68,7 @@ class Home extends Component {
               <h2 className="text-center">Find your favortie books and save them for later</h2>
             </Jumbotron>
           </Col>
-          <Col size="md-12">
+          <Col size="md-6">
             <Card title="Book Search" icon="far fa-book">
               <Form
                 handleInputChange={this.handleInputChange}
@@ -77,9 +77,8 @@ class Home extends Component {
               />
             </Card>
           </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
+      
+          <Col size="md-6">
             <Card title="Results">
               {this.state.books.length ? (
                 <List>
